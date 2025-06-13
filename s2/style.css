@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 30px;
+    font-style: italic ;
+}
+
+header a{
+    text-decoration: none;
+  color: white;
+   
+}
