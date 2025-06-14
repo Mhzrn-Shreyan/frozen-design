@@ -19,3 +19,27 @@ header a{
   color: white;
    
 }
+
+.affordable{
+  padding: 20px 30px;
+  font-style: italic;
+  font-size: 30px;
+  background-color: #F3F5F7;
+}
+
+.affordable i h1{
+    display: flex;
+    align-items: center;
+}
+.affordable i{
+    padding: 100px;
+    font-size: 100px;
+    color: #41D1EB;
+}
+
+ .website{
+    padding: 20px 30px;
+  font-style: italic;
+  font-size: 30px;
+  background-color: #41D1EB;
+ }
