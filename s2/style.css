@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     padding: 20px 30px;
     font-size: 30px;
-    font-style: italic ;
+    
 }
 
 header a{
@@ -20,26 +20,64 @@ header a{
    
 }
 
-.affordable{
-  padding: 20px 30px;
-  font-style: italic;
+.universal{
+  padding: 140px 60px;
   font-size: 30px;
   background-color: #F3F5F7;
+  border-bottom: solid black 20px;
 }
 
-.affordable i h1{
-    display: flex;
+.universal h2{
+    display: inline-block;
     align-items: center;
 }
-.affordable i{
-    padding: 100px;
+.universal i{
+    padding-right: 30px;
     font-size: 100px;
-    color: #41D1EB;
 }
 
- .website{
+.afford{
+  background: lightgray;
+}
+.universal i,.universal h2 {
+  font-size: 90px;
+}
+.universal .top{
+  font-weight: bold;
+  padding: 20px 0;
+ font-size: 30px;
+}
+
+.universal .bottom{
+  font-weight: light;
+  padding: 30px 0;
+ font-size: 25px;
+}
+.website{
+  background: aqua;
+}
+.website i{
+  color: white;
+}
+
+.app{
+  background: url("./images/bg.webp");
+  color: white;
+}
+
+.video-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content:center;
     padding: 20px 30px;
-  font-style: italic;
-  font-size: 30px;
-  background-color: #41D1EB;
- }
+    font-size: 30px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
